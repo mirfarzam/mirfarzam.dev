@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.79c766dd.css",
+    "main.js": "./static/js/main.3a3f55f8.js",
+    "static/js/787.98498dfe.chunk.js": "./static/js/787.98498dfe.chunk.js",
+    "static/media/Pauls SUPER Font.ttf": "./static/media/Pauls SUPER Font.339c2a6cc6e80cdacdf4.ttf",
+    "index.html": "./index.html",
+    "main.79c766dd.css.map": "./static/css/main.79c766dd.css.map",
+    "main.3a3f55f8.js.map": "./static/js/main.3a3f55f8.js.map",
+    "787.98498dfe.chunk.js.map": "./static/js/787.98498dfe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79c766dd.css",
+    "static/js/main.3a3f55f8.js"
+  ]
+}
