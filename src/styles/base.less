@@ -1,3 +1,40 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: superman;
+  src: url('../../public/fonts/Pauls SUPER Font.ttf');
+}
+
+@color-dark-gray: #4a4849;
+@color-light-gray: #7a7779;
+
+body {
+  background-color: whitesmoke;
+}
+
+.hero {
+  h1.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    color: @color-dark-gray;
+    position: relative;
+    .superF {
+      font-family: superman;
+      font-size: 3rem;
+      position: absolute;
+      top: 1rem;
+      right: -2rem;
+      transform: rotate(20deg);
+    }
+  }
+  p {
+    color: @color-light-gray;
+    img {
+      object-fit: cover;
+      height: 25px;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 5px;
+    }
+  }
+}
